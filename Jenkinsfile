@@ -4,7 +4,7 @@ pipeline {
     stage('build') {
       steps {
         echo 'This is the build'
-        sh 'compile'
+        sh 'mvn compile'
       }
     }
 
